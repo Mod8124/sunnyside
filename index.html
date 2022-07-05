@@ -15,7 +15,7 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
-    <div class="wrapper"><!--inicia wrapper-->
+    <main class="wrapper"><!--inicia wrapper-->
 
       <div class="wrapOne"><!--inicia wrapOne-->
 
@@ -27,45 +27,39 @@
                </div>
 
              <div class="navBar">
-               <nav>
+
+               <nav class="navBar__contantainer">
                  <a href="#"> About</a>
                    <a href="#">Services</a>
                    <a href="#">Projects</a>
                  <a href="#" id="contact"> Contact</a>
               </nav>
+
+              <div class="navBar__mobileContainer">
+                   <div class="hambu"></div>
+                <nav class="navBarMobile">
+                    <a href="#"> About</a>
+                     <a href="#">Services</a>
+                     <a href="#">Projects</a>
+                    <a href="#" class="special"> Contact</a>
+                </nav>
+              </div>
+
             </div>
            </div>
 
-           <div class="menuMobile">   
-            <nav role="navigation">
-              <div id="menuToggle">
-                <input type="checkbox" />
-                  <span></span>
-                   <span></span>
-                  <span></span>
-              <ul id="menu">
-                <div class="tri"></div>
-                <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                  <li><a id="cont" href="#">Contact</a></li>
-              </ul>
-             </div>
-            </nav>
-    </div>
-
-         </div><!--termina nav-->
+       </div><!--termina nav-->
 
          <div class="tittle">
-           <div id="tittle">
+           <header id="tittle">
              <h1>We are creatives</h1>
              <div class="arrow"><div id="arrow"><img src="images/icon-arrow-down.svg" alt=""></div></div>
-          </div>
+          </header>
         </div>
 
       </div><!--termina wrapOne-->
 
-      <div class="wrapTwo"><!--inicia wrapTwo-->
+      <section class="wrapTwo"><!--inicia wrapTwo-->
 
         <div class="transform">
           <div id="transform">
@@ -80,13 +74,13 @@
         </div>
         <div class="eggs"><div id="eggs"><img src="images/desktop/image-transform.jpg" alt="image-transform"></div></div>
 
-      </div><!--termina wrapTwo-->
+      </section><!--termina wrapTwo-->
 
       <div class="wrapThree"><!--inicia wrapThree-->
 
         <div class="cup"><div id="cup"><img src="images/desktop/image-stand-out.jpg" alt=""></div></div>
 
-        <div class="stand">
+        <section class="stand">
           <div id="stand">
             <h2>Stand out to the right audience</h2>
               <p>  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
@@ -94,11 +88,11 @@
               <hr>
             </button>
           </div>
-        </div>
+        </section>
 
       </div><!--termina wrapThree-->
 
-      <div class="wrapFour"><!--inicia wrapFour-->
+      <section class="wrapFour"><!--inicia wrapFour-->
 
         <div class="apple">
            <div id="apple">
@@ -114,7 +108,7 @@
            </div>
         </div>
 
-      </div><!--termina wrapFour-->
+      </section><!--termina wrapFour-->
 
       <div class="wrapFive"><!--star wrapFive-->
 
@@ -124,7 +118,7 @@
           </div>
         </div>
 
-        <div class="testi">
+        <section class="testi">
           <div id="testi">
 
             <div class="person">
@@ -149,10 +143,10 @@
             </div>
 
           </div>
-        </div>
+        </section>
       </div><!--termina wrapFive-->
 
-      <div class="wrapSixth"><!--start wrapSixth-->
+      <article class="wrapSixth"><!--start wrapSixth-->
 
         <div class="milk">
            <div id="milk"><img src="images/desktop/image-gallery-milkbottles.jpg" alt="photo-milk"></div>
@@ -167,7 +161,7 @@
            <div id="ice"><img src="images/desktop/image-gallery-sugarcubes.jpg" alt="photo-ice"></div>
         </div>
 
-      </div><!--end wrapSixth-->
+      </article><!--end wrapSixth-->
         
       <footer><!--inicia footer-->
         <div id="footer">
@@ -189,14 +183,12 @@
          </div>
         </div>
       </footer><!--termina footer-->
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Denis Baca</a>.
+      </div>
     
-      </div><!--termina wrapper-->
-
-      
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Denis Baca</a>.
-  </div>
+      </main><!--termina wrapper-->
+      <script src="/js.js"></script>
 </body>
 </html>
